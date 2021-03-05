@@ -27,7 +27,7 @@ const displayCountries = countries => {
         
             <h2 class = "country-name">${countries.name}</h2>
             <p>${countries.capital}</p>
-            <button onclick = "showCountryDetails('${countries.name}')" > Details </button>
+            <button class = "btn btn-success" onclick = "showCountryDetails('${countries.name}')" > Details </button>
         
         `
 

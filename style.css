@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    background-color: lightblue;
 }
 
 .country {
@@ -10,6 +11,9 @@
     padding: 20px;
     width: 300px;
     text-align: center;
+    background-color: cyan;
+    margin-top: 30px;
+    box-shadow: 10px 10px 20px gray;
 }
 
 .country-name {
@@ -23,5 +27,11 @@
 
 #countryDetail {
     text-align: center;
-    margin-right: 130px;
+    margin-right: 190px;
+}
+
+.header {
+    color: hotpink;
+    text-align: center;
+    margin-right: 100px;
 }
